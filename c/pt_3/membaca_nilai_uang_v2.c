@@ -46,6 +46,7 @@ Program membaca_nilai_uang
 	{Program ini akan membaca nilai uang menjadi pecahan Rp1000, Rp500, Rp100, Rp50, Rp25}
 
 Kamus
+	uang <-- 0 : interger
 	ribu <-- 0 : interger
 	ratus <-- 0 : interger
 	puluh <-- 0 : interger

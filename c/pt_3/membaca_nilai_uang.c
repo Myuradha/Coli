@@ -61,9 +61,9 @@ Algoritma
 	uang <-- uang mod 25
 	
 	{tampilkan pecahan uang}
-	output("lembar1000 = ", lembar1000)
-	output("lembar500 = ", lembar500)
-	output("lembar100 = ", lembar100)
-	output("lembar50 = ", lembar50)
-	output("lembar25 = ", lembar25)
+	output("lembar1000 = Rp.", lembar1000)
+	output("lembar500 = Rp.", lembar500)
+	output("lembar100 = Rp.", lembar100)
+	output("lembar50 = Rp.", lembar50)
+	output("lembar25 = Rp.", lembar25)
 */

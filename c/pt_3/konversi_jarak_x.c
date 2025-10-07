@@ -1,10 +1,7 @@
 #include <stdio.h>
 
 int x = 0;
-int cm = 0;
-int m = 0;
-int km = 0;
-int sisa = 0;
+int cm, m, km, sisa;
 
 int main() {
 	printf("Masukkan jarak x = ");
@@ -19,11 +16,11 @@ int main() {
 }
 
 /*
-Program mengkonversi_jarak_x
+Program konversi_jarak_x
 	{program mengkonversi nilai jarak x ke dalam km, m, cm}
 
 Kamus
-	x : interger
+	x <-- 0 : interger
 	cm, m, km, sisa : interger
 	
 Algoritma
