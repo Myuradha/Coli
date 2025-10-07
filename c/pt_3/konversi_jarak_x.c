@@ -34,5 +34,5 @@ Algoritma
     cm <-- sisa mod 100;
     
 	{menampilkan nilai x}
-    output("km + m + cm = ", km, ,m, cm)
+    output("km + m + cm = ", km, m, cm)
 */
