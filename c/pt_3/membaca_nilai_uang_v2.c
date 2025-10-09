@@ -15,11 +15,21 @@ int main() {
         ribu = uang / 1000;
         uang = uang % 1000;
     }
-    if (uang >= 100)
+    if (uang >= 600 && uang < 1000)
     {
         ratus = uang / 100;
         uang = uang % 100;
     }
+    
+//    if (uang >= 600 && uang < 1000)
+//    {
+//        ratus = uang / 100;
+//        uang = uang % 100;
+//    } else if (uang == 500) {
+//    	ratus = uang / 500;
+//        uang = uang % 500;
+//	}
+
     if (uang >= 50) 
     {
         puluh = uang / 50;
@@ -61,19 +71,22 @@ Algoritma
 	if (uang >= 1000) then
 		ribu <-- uang / 1000
 		uang <-- uang mod 1000
-	
+	endif
 
 	if (uang >= 100) then
 		ribu <-- uang / 100
 		uang <-- uang mod 100
+	endif
 	
 	if (uang >= 50) then
 		ribu <-- uang / 50
 		uang <-- uang mod 50
+	endif
 	
 	if (uang >= 25) then
 		ribu <-- uang / 25
 		uang <-- uang mod 25
+	endif
 	
 	{tampilkan pecahan uang}
 	output("ribu = Rp.", ribu)

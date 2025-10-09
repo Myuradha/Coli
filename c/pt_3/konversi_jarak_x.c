@@ -4,8 +4,8 @@ int x = 0;
 int cm, m, km, sisa;
 
 int main() {
-	printf("Masukkan jarak x = ");
-	scanf("%i", &x);
+	printf("Masukkan jarak x = ", &x);
+//	scanf("%i", &x);
 	
 	km = x / 100000;
 	sisa = x % 100000;
