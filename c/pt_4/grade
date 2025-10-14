@@ -1,0 +1,46 @@
+#include<stdio.h>
+//#include<conio.h>
+int main(){
+	int nilai;
+	printf("Masukkan nilai: ");
+	scanf("%d", &nilai);
+	if((nilai>=80) && (nilai<=100))
+	{
+		printf("grade A\n");
+	} else if((nilai>=75) && (nilai<=79))
+			{
+				printf("grade B\n");
+			} else if((nilai>=60) && (nilai<=74))
+					{
+						printf("grade C\n");
+					} else if((nilai>=40) && (nilai<=59))
+							{
+								printf("grade D\n");
+							} else if((nilai>=0) && (nilai<=39))
+									{
+										printf("grade E\n");
+									} else 
+									{
+										printf("nilai salah\n");
+									}
+	return 0;
+}
+
+// Algoritma_grade_nilai
+// Kamus
+// 	nilai : integer
+// Algoritma
+// 	input(nilai)
+// 	if((nilai>=80) and (nilai<=100)) then
+// 		output(“grade A”)
+// 	      else if((nilai>=75) and (nilai<=79)) then
+// 		      output(“grade B”)
+// 		else if((nilai>=60) and (nilai<=74)) then
+// 		             output(“grade C”)
+// 		         else if((nilai>=40) and (nilai<=59)) then
+// 			        output(“grade D”)
+// 			else if((nilai>=0) and (nilai<=39)) then
+// 			             output(“grade E”)
+// 		    	        else
+// 				output(“nilai salah”)
+// end if end if end if end if end if
