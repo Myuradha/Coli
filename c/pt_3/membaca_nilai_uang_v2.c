@@ -15,20 +15,12 @@ int main() {
         ribu = uang / 1000;
         uang = uang % 1000;
     }
-    if (uang >= 600 && uang < 1000)
+
+	if (uang >= 100) 
     {
-        ratus = uang / 100;
+        puluh = uang / 100;
         uang = uang % 100;
     }
-    
-//    if (uang >= 600 && uang < 1000)
-//    {
-//        ratus = uang / 100;
-//        uang = uang % 100;
-//    } else if (uang == 500) {
-//    	ratus = uang / 500;
-//        uang = uang % 500;
-//	}
 
     if (uang >= 50) 
     {
@@ -95,3 +87,18 @@ Algoritma
 	output("dualima = Rp.", dualima)
 	output("Sisa = Rp.", uang)
 */
+
+    // if (uang >= 600 && uang < 1000)
+    // {
+    //     ratus = uang / 100;
+    //     uang = uang % 100;
+    // }
+    
+	// if (uang >= 600 && uang < 1000)
+	// {
+	// 	ratus = uang / 100;
+	// 	uang = uang % 100;
+	// } else if (uang == 500) {
+	// 	ratus = uang / 500;
+	// 	uang = uang % 500;
+	// 	}

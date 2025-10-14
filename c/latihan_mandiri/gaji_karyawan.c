@@ -2,7 +2,7 @@
 #include <conio.h>
 
 int nim; //nim
-char nama[100]; //nama user
+char nama[10]; //nama user
 int gol; //golongan user [1/2/3]
 char stat[100]; //status user [menikah/cerai/belum menikah]
 //int anak; //jumlah anak user
