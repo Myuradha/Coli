@@ -2,9 +2,9 @@
 
 int main() {
 	int x = 0, hari, bulan, tahun, sisa;
-	
+	scanf("%i", &x);	
 	printf("Masukkan hari = ");
-	scanf("%i", &x);
+
 	
 	tahun = x / 365;
 	sisa = x % 365;

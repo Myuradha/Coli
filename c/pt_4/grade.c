@@ -1,5 +1,5 @@
 #include<stdio.h>
-//#include<conio.h>
+#include<conio.h>
 int main(){
 	int nilai;
 	printf("Masukkan nilai: ");
@@ -23,6 +23,8 @@ int main(){
 									{
 										printf("nilai salah\n");
 									}
+									
+									
 	return 0;
 }
 

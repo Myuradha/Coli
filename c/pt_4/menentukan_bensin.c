@@ -27,18 +27,19 @@ int main() {
 PROGRAM menentukan_bahan_bakar
 
 KAMUS
-    var bahan_bakar : interger
+    var pilihan : interger
 
 ALGORITMA
+    {Inputkan pilihan}
     output("[1 - Pertalite] | [2 - Pertamax] | [3 - Bio Solar]")
     output("Pilih bahan bakar[1/2/3]: ")
-    input(bahan_bakar)
+    input(pilihan)
 
-if (bahan_bakar == 1) then
+if (pilihan == 1) then
     output("Anda memilih bahan bakar Pertalite")
-else if (bahan_bakar == 2) then
+else if (pilihan == 2) then
     output("Anda memilih bahan bakar Pertamax")
-else if (bahan_bakar == 3) then
+else if (pilihan == 3) then
     output("Anda memilih bahan bakar Bio Solar")
 else
     output("Hanya dapat menginput 1, 2, dan 3")
